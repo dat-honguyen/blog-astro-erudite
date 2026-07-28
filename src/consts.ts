@@ -12,10 +12,9 @@ export const SITE = {
   defaultPostImage: "/static/1200x630.png",
 } as const
 
-export const NAVIGATION = [
-  { href: "/blog", label: "Blog" },
-  { href: "/projects", label: "Projects" },
-]
+export const PORTFOLIO_URL = "https://datisa.dev"
+
+export const NAVIGATION = [{ href: "/blog", label: "Blog" }]
 
 export const SOCIALS: { href: string; label: string; icon: SvgComponent }[] = [
   { href: "https://github.com/dat-honguyen", label: "GitHub", icon: GitHub },
